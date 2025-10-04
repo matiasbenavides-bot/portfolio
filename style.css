@@ -1,4 +1,6 @@
-
+i {
+  font-size: 45px;
+}
 body{
     background-color: rgb(0, 0, 0);
    
@@ -200,3 +202,4 @@ transition: 0.3s;
         0 0 40px #fbff1e;
         transition: 0.3s;
 }
+
