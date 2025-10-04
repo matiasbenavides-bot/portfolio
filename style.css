@@ -1,0 +1,202 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+   
+}
+
+button{
+    transition: 0.3s;
+}
+button:active{
+    transform: scale(1.05)
+}
+body button{
+    border-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+
+
+
+
+
+
+}
+.superior {
+  display: flex;
+  gap: 20px;
+  
+}
+.button-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.medio {
+  display: flex;
+    gap: 20px;
+  justify-content: center;
+  
+}
+.inferior {
+  display: flex;
+  
+  
+}
+.button{
+    border: 2px solid blueviolet;
+    color:blueviolet;
+  
+    width:85vw;
+    height: 28vh
+}
+.button1{
+    border: 2px solid blue;
+    color: blue;
+
+    width:25vw;
+    height: 12.5vh;
+}
+
+.button2{
+    border: 2px solid green;
+    color: green;
+
+    width:25vw;
+    height: 12.5vh;
+}
+
+.button-medio{
+border: 2px solid red;
+color:red;
+
+        width:98vw;
+    height: 30vh;
+}
+.button-bajo{
+  border: 2px solid aqua;
+  color: aqua;
+transition: 0.5s;
+ width:48vw;
+    height: 20vh
+
+}
+
+.button-bajo2{
+    border: 2px solid orange;
+  color: orange;
+
+ width:50vw;
+    height: 20vh
+
+}
+.button-bajo1{
+    display:flex;
+    gap:10px;
+    transition: 0.3s;
+
+}
+
+span{
+font-size: 30px;
+transition: 0.5s;
+}
+.button:hover{
+  color: rgb(162, 63, 255);
+  border: 4px solid rgb(162, 65, 253)  ;
+  cursor: pointer;
+transition: 0.3s;
+text-shadow: 
+        0 0 10px #bf00ff,
+        0 0 20px #a020f0,
+        0 0 40px #a020f0,
+        0 0 80px #a020f0;
+      box-shadow: 
+        0 0 10px #bf00ff,
+        0 0 20px #a020f0,
+        0 0 40px #a020f0;
+       
+
+
+}          
+  
+  
+.button1:hover{
+    color:rgb(86, 86, 255);
+    border:4px solid rgb(102, 102, 249);
+    cursor: pointer;
+  text-shadow: 
+        0 0 10px #0004ff,
+        0 0 20px #221eff,
+        0 0 40px #1e65ff,
+        0 0 80px #1e2dff;
+      box-shadow: 
+        0 0 10px #0400ff,
+        0 0 20px #1e47ff,
+        0 0 40px #351eff;
+      
+
+}
+.button2:hover{
+    
+  color: #39ff14;             
+  border: 4px solid #39ff14;  
+  cursor: pointer;           
+transition: 0.3s;
+ text-shadow: 
+        0 0 10px #39ff14,
+        0 0 20px #00cc00,
+        0 0 40px #00cc00,
+        0 0 80px #00cc00;
+      box-shadow: 
+        0 0 10px #39ff14,
+        0 0 20px #00cc00,
+        0 0 40px #00cc00;
+        
+
+}
+
+.button-medio:hover{
+ color:rgb(255, 66, 66);
+    border:4px solid rgb(255, 0, 0);
+    cursor: pointer;
+        text-shadow: 
+        0 0 10px #ff1a1a,
+        0 0 20px #ff0000,
+        0 0 40px #ff0000,
+        0 0 80px #ff0000;
+      box-shadow: 
+        0 0 10px #ff0000,
+        0 0 20px #ff1e1e,
+        0 0 40px #ff1e1e;
+        transition: 0.3s;
+}
+.button-bajo:hover{
+ color:rgb(0, 255, 217);
+    border:4px solid rgb(0, 226, 251);
+    cursor: pointer;
+  text-shadow: 
+        0 0 5px #00bfff,
+        0 0 10px #00bfff,
+        0 0 20px #1e90ff;
+      box-shadow: 
+        0 0 10px #00bfff,
+        0 0 20px #1e90ff,
+        0 0 40px #1e90ff;
+}
+
+.button-bajo2:hover{
+     color:rgb(225, 255, 0);
+    border:4px solid rgb(246, 255, 0);
+    cursor: pointer;
+      text-shadow: 
+        0 0 5px #fbff00,
+        0 0 10px #eeff00,
+        0 0 20px #ffe91e;
+      box-shadow: 
+        0 0 10px #e5ff00,
+        0 0 20px #e9ff1e,
+        0 0 40px #fbff1e;
+        transition: 0.3s;
+}
